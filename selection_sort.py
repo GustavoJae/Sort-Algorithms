@@ -15,6 +15,3 @@ def selectionSort(list):
         # troca o minimo pelo elemento atual
         list[i], list[index_min] = list[index_min],list[i]
     return list
-
-test = [4,5,6,1,2,5,7]
-print(selectionSort(test))
